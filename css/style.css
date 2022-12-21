@@ -1,0 +1,242 @@
+/* 515 line */
+
+/*242 line */
+
+/*start main rulse */
+body{background-color: rgb(252, 247, 247);height: 400px;}
+
+.container{width: 1170px;margin: auto;}
+
+.clearfix {clear: both;}
+
+/* end main rulse */
+
+/* start header*/
+
+.header .slider {
+    background-image: url(../image/popup-video-poster-01-1170x600.jpg);
+    -webkit-background-size:cover ; /*css3*/
+    -moz-background-size:cover ; /*css3*/
+    -o-background-size:cover ; /*css3*/
+    background-size:cover ; /*css3*/
+    height: 400px;
+}
+
+.header .slider .intro {padding-top: 100px;text-align: center;color: rgb(25, 78, 41);}
+
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid#fff;
+}
+
+.header .slider .intro button {
+    background: none;
+    color: #12602d;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.header .navbar{background-color: rgb(34, 64, 25);color: #fff; overflow: hidden;}
+
+.header .navbar h2{float: left; text-transform: uppercase;}
+
+.header .navbar h2 span{color: #2ecc71;}
+
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.header .navbar ul li{ float:left;padding:10px;}
+
+.header .navbar ul li a{color: #fff;text-decoration: none;}
+
+.header .navbar ul li .active-colo a,
+.header .navbar ul li a:hover{color: #30b576;}
+/* end  heder */
+
+/*start features*/
+.features{overflow: hidden;padding-top: 50px;padding-bottom: 50px;}
+
+.features .feat {float: left;width: 33.33333%;height: 180px;/* for lay out only*/}
+
+.features .feat h2 {color: #555;}
+
+.features .feat p{line-height: 1.7;color: #888;}
+
+/*end features*/
+
+/*start about me*/
+.about-me {background-color: #F2F2F2;overflow: hidden;}
+
+.about-me .image {float: left;width: 50%;}
+
+.about-me .image .img{width: 20%;}
+
+.about-me .info {float: right;width: 50%;}
+
+.about-me .info h2{margin: 20px 0 20px 40px;color: #555;}
+
+.about-me .info > p{margin: 0 0 10px 40px;}
+
+.about-me .info > p:last-of-type{margin-top: 25px;}
+
+.about-me .info p {line-height: 1.6;color: #666;}
+
+.about-me .info .hobbies{overflow: hidden;margin: 15px 0 0 40px;}
+
+.about-me .info .hobbies .content{float: left;width: 50%;min-height: 100px;overflow: hidden;}
+
+.about-me .info .hobbies .content h3 {color: #555;}
+
+.about-me .info .hobbies .content .icon{float: left;width: 12%;margin-right: 5%;}
+
+.about-me .info .hobbies .content .icon img{max-width: 100%;margin: 40px 10px 0 0;}
+
+.about-me .info .hobbies .content .text {float: left;width: 83%;}
+
+.about-me .info .hobbies .content .text p {margin-top:0;}
+
+.about-me .info .hobbies .content .text h3 {margin-bottom: 5px;}
+/*end about me*/
+
+/*start my skills*/
+.my-skills{padding-top: 30px;padding-bottom: 30px;overflow: hidden;}
+
+.my-skills .skills,
+.my-skills .preogres{width: 50%;float: left; }
+
+.my-skills .skills h2 {margin: 25px 0 20px 40px;color: #555;}
+
+.my-skills .skills p {margin: 0 0 10px 40px;line-height: 1.6;color: #666;}
+
+.my-skills .skills p:last-of-type {margin-top: 25px;}
+
+.my-skills .skills button{margin-top: 20px;margin-left: 40px;}
+
+.my-skills .preogres .technique{ margin-left: 50px;}
+
+.my-skills .preogres .technique h3{color: #555;}
+
+.my-skills .preogres .technique div{background-color: #F2F2F2;height: 25px;}
+
+.my-skills .preogres .technique div span{background-color: #2dcc70;width: 80px;height: 25px;display: block;line-height: 25px;text-align: right;color: #F2F2F2;font-weight: bold;}
+/*end my skills*/
+
+/*start resume*/
+.Resume {background-color: #F2F2F2;padding-top: 50px;padding-bottom: 70px;text-align: center;}
+
+.Resume h2 {text-transform: uppercase;font-weight: bold;color: #666;}
+
+.Resume p {line-height: 1.7;color: #666;padding: 0 40px;}
+
+.Resume button {margin-top: 25px;}
+
+/*end resume*/
+
+/* start my Education*/
+.my-Education {padding-top: 30px;padding-bottom: 30px;overflow: hidden;}
+
+.my-Education .main{width: 50%;margin-right: 5%;float: left;}
+
+.my-Education .main h2 {margin: 25px 0 20px 40px;color: #555;}
+
+.my-Education .main p {margin: 0 0 10px 40px;line-height: 1.6;color: #666;}
+
+.my-Education .main p :last-of-type {margin-top: 25px;}
+
+.my-Education .exp {width: 45%;float: left;}
+
+.my-Education .exp h3 {margin-top: 80px;margin-bottom: 5px;}
+
+.my-Education .exp span {display: block;margin-bottom: 10px;}
+
+.my-Education .exp span:first-of-type{color: #999;}
+
+.my-Education .exp span:last-of-type {background-color: #2dcc70;color: #fff;display: inline-block;padding: 4px 10px;}
+
+.my-Education .exp hr{ margin:20px 0;background-color: #999; height: 1px;border: 0;}
+
+.my-Education .exp p {line-height: 1.7;color: #555;}
+/*end my Education*/
+
+/*start test-monials*/
+.test-monials {background-color: #F2F2F2;padding-top: 50px;padding-bottom: 70px;text-align: center;}
+
+.test-monials q{line-height: 30px;color: #666;font-size: 18px;font-style: italic;font-weight: bold;}
+
+.test-monials H3{color: #777;margin-bottom: 30px;}
+
+.test-monials ul {list-style: none;padding-left: 0;text-align: center;margin-top: 10px;}
+
+.test-monials ul li{width: 15px;height: 15px;border: 2px solid #2dcc70;display: inline-block;cursor: pointer;}
+
+.test-monials ul li.active,
+.test-monials ul li:hover {background-color: #2dcc70}
+
+/*end test-monials*/
+
+/*start portfolio-->*/
+
+.portfolio{padding: 50px;padding-bottom: 70px;text-align: center;}
+
+.portfolio h2 {color: #777;}
+
+.portfolio p {line-height: 1.7;color: #666;margin-bottom: 30px;}
+
+.portfolio .our-work{overflow: hidden; }
+
+.portfolio .our-work > div {float: left;width: 15.333333%;margin-bottom: 10px;}
+
+.portfolio .our-work > div img {width:90%;margin:10px;padding: 3px;background-color: #fff;border: 1px solid #ccc;box-shadow: 10px 10px 12px #ccc;}
+
+/*end portfolio*/
+
+/*start countact-me*/
+.countact-me{background-color: #252f31;overflow: hidden;padding-top: 50px;padding-bottom: 70px;}
+
+.countact-me .info {width: 50%;margin-right: 5%;float: left;}
+
+.countact-me h2 {color: #fff; margin-left:40px;}
+
+.countact-me p {color: #6a6E71;margin-left:40px;line-height: 1.7;}
+
+.countact-me p strong {color: #D1D6DA}
+
+.countact-me .form {width: 45%;float: left;}
+
+.countact-me .form label {display: block;color: #D1D6DA;margin: 10px 0;}
+
+.countact-me .form input[type="text"] {background-color: #4B5557;color: #fff;padding: 10px;border: 0;width: 80%;margin-bottom: 10px;}
+
+.countact-me .form textarea {background-color: #4B5557;color: #fff;padding: 10px;border: 0;width: 80%;margin-bottom: 10px;height: 300px;}
+
+.countact-me .form input[type="submit"] {background-color: #191E22;color: #fff;padding: 10px 20px;border: 0;margin-top: 10px;}
+
+/*end countact-me*/
+
+/*start footer*/
+.footer{background-color: #191E22;color: #657578;padding: 20px 0;text-align: center;overflow: hidden;}
+
+.footer span {float: left;}
+
+.footer ul {list-style: none;padding-left: 0;margin: 0;float: right;}
+
+.footer ul li {display: inline-block;}
+
+.footer ul li img {width: 24px;}
+
+/*end footer*/
+
+/* start my frame work*/
+
+.my-button {background: none;border: 3px solid #2dcc70;padding: 10px 30px;color: #2dcc70;font-weight: bold;}
+/* end my frame work*/
